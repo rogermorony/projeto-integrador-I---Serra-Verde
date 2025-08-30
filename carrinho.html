@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout | Serra Verde Gramas - Loja</title>
+
+  <!-- Reaproveita a base do index (sidebar, grid, cards...) -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Estilos só do conteúdo de detalhes (não altera sidebar) -->
+  <link rel="stylesheet" href="carrinho.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- SIDEBAR — cópia idêntica do index -->
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="assets/logo-serra-verde.png" alt="Serra Verde Gramas">
+      </div>
+
+      <nav class="filters">
+        <h3>Todos os Produtos <span class="count">(9)</span></h3>
+
+        <div class="filter-group">
+          <div class="group-title">Grama <span class="count">(4)</span></div>
+          <ul>
+            <li><a href="#">Zoysia japônica</a></li>
+            <li><a href="#">Axonopus fissifolius</a></li>
+            <li><a href="#">Zoysia matrella</a></li>
+            <li><a href="#">Sementes de grama</a></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <div class="group-title">Terra <span class="count">(3)</span></div>
+          <ul>
+            <li><a href="#">Terra preta</a></li>
+            <li><a href="#">Terra preta em saco</a></li>
+            <li><a href="#">Fertilizante NPK</a></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <div class="group-title">Acessórios <span class="count">(2)</span></div>
+          <ul>
+            <li><a href="#">Kit irrigação</a></li>
+            <li><a href="#">Kit ferramentas de jardinagem</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="contact">
+        <h4>Fale Conosco</h4>
+        <ul>
+          <li>
+            <ion-icon name="logo-whatsapp"></ion-icon>(54) 99100-0910
+          </li>
+          <li>
+            <ion-icon name="logo-facebook"></ion-icon>@serraverdegramas
+          </li>
+          <li>
+            <ion-icon name="logo-instagram"></ion-icon>@serraverdegramas
+          </li>
+          <li>
+            <ion-icon name="mail-outline"></ion-icon>serraverdegramas@hotmail.com
+          </li>
+          <li>
+            <ion-icon name="map-outline"></ion-icon>Estr. do Poço da Faca, 95 - Estra, São Francisco de Paula - RS
+          </li>
+        </ul>
+      </section>
+
+      <section class="about">
+        <h4>Sobre nós</h4>
+        <p>
+          A Serra Verde é o seu parceiro ideal para jardins incríveis, com gramados
+          de alta qualidade e entrega rápida em Canela, Gramado e São Francisco de Paula.
+          Selecione os produtos e transforme seu espaço com a gente!
+          <br>
+          <a href="#">www.serraverdegramas.com.br</a>
+        </p>
+      </section>
+    </aside>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+      <a href="index.html" class="btn-voltar">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+        Voltar
+      </a>
+
+      <h1 class="page-title">Checkout</h1>
+      <p class="page-subtitle">Revise seus itens, informe seus dados e conclua a compra.</p>
+
+      <div class="content">
+        <!-- Coluna esquerda -->
+        <div class="left">
+          <section class="box">
+            <h3 class="box-title">Carrinho</h3>
+
+            <div class="table">
+              <div class="table-row table-head">
+                <div class="col">Produto</div>
+                <div class="col">Preço</div>
+                <div class="col">Quantidade</div>
+                <div class="col">Subtotal</div>
+              </div>
+
+              <div class="table-row">
+                <div class="col"><strong>Grama Esmeralda</strong></div>
+                <div class="col">R$ -</div>
+                <div class="col"><input class="input-qtde" type="number" value="1" min="1"></div>
+                <div class="col">R$ -</div>
+              </div>
+
+              <div class="table-row">
+                <div class="col"><strong>Fertilizante NPK</strong></div>
+                <div class="col">R$ -</div>
+                <div class="col"><input class="input-qtde" type="number" value="1" min="1"></div>
+                <div class="col">R$ -</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="box">
+            <h3 class="box-title">Endereço de Entrega</h3>
+            <div class="form-grid">
+              <input class="input" type="text" placeholder="CEP">
+              <input class="input" type="text" placeholder="Rua e número">
+              <input class="input" type="text" placeholder="Bairro">
+              <input class="input" type="text" placeholder="Cidade">
+              <input class="input" type="text" placeholder="Estado">
+              <input class="input" type="text" placeholder="Complemento (opcional)">
+            </div>
+            <p class="note">Entrega estimada: 3–5 dias úteis após confirmação do pagamento.</p>
+          </section>
+
+          <section class="box">
+            <h3 class="box-title">Pagamento</h3>
+            <input class="input" type="text" placeholder="Cartão de crédito">
+            <div class="row-two">
+              <input class="input" type="text" placeholder="Número do cartão">
+              <input class="input" type="text" placeholder="Nome impresso">
+            </div>
+            <div class="row-two">
+              <input class="input" type="text" placeholder="Validade (MM/AA)">
+              <input class="input" type="text" placeholder="CVV">
+            </div>
+          </section>
+        </div>
+
+        <!-- Coluna direita -->
+        <aside class="right">
+          <div class="box">
+            <div class="line"><span>Subtotal</span><span>R$ - </span></div>
+            <div class="line"><span>Frete</span><span>R$ - </span></div>
+            <div class="line"><span>Descontos</span><span>—</span></div>
+            <div class="line total"><span>Total</span><strong>R$ - </strong></div>
+
+            <div class="coupon">
+              <input class="input" type="text" placeholder="Cupom de desconto">
+              <button class="btn btn-outline">Aplicar</button>
+            </div>
+
+            <a class="btn btn-outline" href="index.html">Voltar à Loja</a>
+            <button class="btn btn-primary">Confirmar Pagamento</button>
+
+            <div class="mini">
+              <p class="mini-title">Resumo do Pedido</p>
+              <div class="mini-grid">
+                <span>Itens</span><span>2</span>
+                <span>Prazo de entrega</span><span>3–5 dias úteis</span>
+                <span>Envio para</span><span>Serra Gaúcha</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Ionicons (para os ícones da sidebar) -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

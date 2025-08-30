@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terra Preta | Serra Verde Gramas - Loja</title>
+
+  <!-- Reaproveita a base do index -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Styles só do conteúdo de detalhes (não altera a sidebar) -->
+  <link rel="stylesheet" href="detalhes-terra.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="assets/logo-serra-verde.png" alt="Serra Verde Gramas">
+      </div>
+
+      <nav class="filters">
+        <h3>Todos os Produtos <span class="count">(9)</span></h3>
+
+        <div class="filter-group">
+          <div class="group-title">Grama <span class="count">(4)</span></div>
+          <ul>
+            <li><a href="#">Zoysia japônica</a></li>
+            <li><a href="#">Axonopus fissifolius</a></li>
+            <li><a href="#">Zoysia matrella</a></li>
+            <li><a href="#">Sementes de grama</a></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <div class="group-title">Terra <span class="count">(3)</span></div>
+          <ul>
+            <li><a href="#">Terra preta</a></li>
+            <li><a href="#">Terra preta em saco</a></li>
+            <li><a href="#">Fertilizante NPK</a></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <div class="group-title">Acessórios <span class="count">(2)</span></div>
+          <ul>
+            <li><a href="#">Kit irrigação</a></li>
+            <li><a href="#">Kit ferramentas de jardinagem</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="contact">
+        <h4>Fale Conosco</h4>
+        <ul>
+          <li>
+            <ion-icon name="logo-whatsapp"></ion-icon>(54) 99100-0910
+          </li>
+          <li>
+            <ion-icon name="logo-facebook"></ion-icon>@serraverdegramas
+          </li>
+          <li>
+            <ion-icon name="logo-instagram"></ion-icon>@serraverdegramas
+          </li>
+          <li>
+            <ion-icon name="mail-outline"></ion-icon>serraverdegramas@hotmail.com
+          </li>
+          <li>
+            <ion-icon name="map-outline"></ion-icon>Estr. do Poço da Faca, 95 - Estra, São Francisco de Paula - RS
+          </li>
+        </ul>
+      </section>
+
+      <section class="about">
+        <h4>Sobre nós</h4>
+        <p>
+          A Serra Verde é o seu parceiro ideal para jardins incríveis, com gramados
+          de alta qualidade e entrega rápida em Canela, Gramado e São Francisco de Paula.
+          Selecione os produtos e transforme seu espaço com a gente!
+          <br>
+          <a href="#">www.serraverdegramas.com.br</a>
+        </p>
+      </section>
+    </aside>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+      <a href="index.html" class="btn-voltar">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+        Voltar
+      </a>
+
+      <!-- Cabeçalho do produto -->
+      <section class="detail">
+        <div class="detail-left">
+          <p class="detail-category">TERRA</p>
+          <h1 class="detail-title">TERRA PRETA</h1>
+          <p class="detail-sku">Código: 04</p>
+
+          <p class="detail-price">R$ 120,00 <span class="detail-unit">/m³</span></p>
+          <button class="detail-btn" type="button" aria-label="Adicionar ao carrinho">
+            <ion-icon name="cart-outline" class="btn-icon" aria-hidden="true"></ion-icon>
+            <span class="btn-text">ADICIONAR AO CARRINHO</span>
+          </button>
+          <div class="actions">
+            <button type="button" class="action" id="btn-copy">
+              <ion-icon name="unlink-outline" class="action-icon" aria-hidden="true"></ion-icon>
+              <span class="action-text">Copiar link</span>
+            </button>
+
+            <button type="button" class="action" id="btn-share">
+              <ion-icon name="share-social-outline" class="action-icon" aria-hidden="true"></ion-icon>
+              <span class="action-text">Compartilhar</span>
+            </button>
+          </div>
+
+          <p class="detail-desc">
+            A Terra Preta é um substrato fértil de alta qualidade, ideal para
+            o preparo do solo no plantio de gramas e jardins. Rica em
+            matéria orgânica e nutrientes essenciais, proporciona melhor
+            retenção de umidade, maior aeração e um ambiente equilibrado
+            para o enraizamento saudável das mudas.
+            Além de favorecer o crescimento rápido e uniforme da grama,
+            reduz a necessidade de adubação frequente, oferecendo um
+            solo mais estável e produtivo. É a escolha indicada para quem
+            busca um gramado verde, resistente e de longa durabilidade,
+            garantindo um paisagismo mais bonito e sustentável.
+          </p>
+        </div>
+
+        <div class="detail-right">
+          <img class="detail-image" src="assets/terra preta.jpg" alt="Terra Preta">
+        </div>
+      </section>
+
+      <h3 class="detail-subtitle">Mais itens de TERRAS</h3>
+
+      <!-- Reaproveita os cards do index -->
+      <section class="grid">
+        <a href="detalhes-terraemsaco.html" class="card-link">
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/terra preta em saco.jpg" alt="Terra Preta em Saco">
+            </div>
+            <div class="card-body">
+              <h5 class="title">TERRA PRETA EM SACO</h5>
+              <p class="subtitle">Ideal para coberturas de gramados</p>
+              <p class="price">R$ 30,00</p>
+            </div>
+          </article>
+        </a>
+
+        <a href="detalhes-fertilizante.html" class="card-link">
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/npk.jpg" alt="Fertilizante NPK">
+            </div>
+            <div class="card-body">
+              <h5 class="title">FERTILIZANTE NPK</h5>
+              <p class="subtitle">Crescimento vigoroso</p>
+              <p class="price">R$ 17,00</p>
+            </div>
+          </article>
+        </a>
+      </section>
+
+      <!-- Ver mais itens -->
+      <div class="see-more-wrap">
+        <a href="index.html" class="see-more">
+          <span class="see-more-text">Ver mais itens</span>
+          <ion-icon name="arrow-forward-outline" class="see-more-icon" aria-hidden="true"></ion-icon>
+        </a>
+      </div>
+
+      <!-- Ionicons (para os ícones da sidebar) -->
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

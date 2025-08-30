@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grama Esmeralda | Serra Verde Gramas - Loja</title>
+
+  <!-- Reaproveita a base do index (sidebar, grid, cards...) -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Estilos só do conteúdo de detalhes (não altera sidebar) -->
+  <link rel="stylesheet" href="detalhes-esmeralda.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- SIDEBAR — cópia idêntica do index -->
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="assets/logo-serra-verde.png" alt="Serra Verde Gramas">
+      </div>
+
+      <nav class="filters">
+        <h3>Todos os Produtos <span class="count">(9)</span></h3>
+
+        <div class="filter-group">
+          <div class="group-title">Grama <span class="count">(4)</span></div>
+          <ul>
+            <li><a href="#">Zoysia japônica</a></li>
+            <li><a href="#">Axonopus fissifolius</a></li>
+            <li><a href="#">Zoysia matrella</a></li>
+            <li><a href="#">Sementes de grama</a></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <div class="group-title">Terra <span class="count">(3)</span></div>
+          <ul>
+            <li><a href="#">Terra preta</a></li>
+            <li><a href="#">Terra preta em saco</a></li>
+            <li><a href="#">Fertilizante NPK</a></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <div class="group-title">Acessórios <span class="count">(2)</span></div>
+          <ul>
+            <li><a href="#">Kit irrigação</a></li>
+            <li><a href="#">Kit ferramentas de jardinagem</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="contact">
+        <h4>Fale Conosco</h4>
+        <ul>
+          <li>
+            <ion-icon name="logo-whatsapp"></ion-icon>(54) 99100-0910
+          </li>
+          <li>
+            <ion-icon name="logo-facebook"></ion-icon>@serraverdegramas
+          </li>
+          <li>
+            <ion-icon name="logo-instagram"></ion-icon>@serraverdegramas
+          </li>
+          <li>
+            <ion-icon name="mail-outline"></ion-icon>serraverdegramas@hotmail.com
+          </li>
+          <li>
+            <ion-icon name="map-outline"></ion-icon>Estr. do Poço da Faca, 95 - Estra, São Francisco de Paula - RS
+          </li>
+        </ul>
+      </section>
+
+      <section class="about">
+        <h4>Sobre nós</h4>
+        <p>
+          A Serra Verde é o seu parceiro ideal para jardins incríveis, com gramados
+          de alta qualidade e entrega rápida em Canela, Gramado e São Francisco de Paula.
+          Selecione os produtos e transforme seu espaço com a gente!
+          <br>
+          <a href="#">www.serraverdegramas.com.br</a>
+        </p>
+      </section>
+    </aside>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+      <a href="index.html" class="btn-voltar">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+        Voltar
+      </a>
+
+      <!-- Cabeçalho do produto (texto à esquerda, foto à direita) -->
+      <section class="detail">
+        <div class="detail-left">
+          <p class="detail-category">ZOYSIA JAPONICA</p>
+          <h1 class="detail-title">GRAMA ESMERALDA</h1>
+          <p class="detail-sku">Código: 01</p>
+
+          <p class="detail-price">R$ 17,00 <span class="detail-unit">/m²</span></p>
+          <button class="detail-btn" type="button" aria-label="Adicionar ao carrinho">
+            <ion-icon name="cart-outline" class="btn-icon" aria-hidden="true"></ion-icon>
+            <span class="btn-text">ADICIONAR AO CARRINHO</span>
+          </button>
+          <div class="actions">
+            <button type="button" class="action" id="btn-copy">
+              <ion-icon name="unlink-outline" class="action-icon" aria-hidden="true"></ion-icon>
+              <span class="action-text">Copiar link</span>
+            </button>
+
+            <button type="button" class="action" id="btn-share">
+              <ion-icon name="share-social-outline" class="action-icon" aria-hidden="true"></ion-icon>
+              <span class="action-text">Compartilhar</span>
+            </button>
+          </div>
+
+          <p class="detail-desc">
+            Grama Esmeralda é a grama mais conhecida e de maior
+            importância econômica no Brasil, sendo a maior em número de
+            hectares cultivados. É uma variedade rizomatosa e estolonífera,
+            de folhas finas de coloração verde esmeralda adaptada a
+            condições de pleno sol. Apresenta boa tolerância ao pisoteio e
+            necessita de pouca manutenção em decorrência do seu
+            crescimento lento. É amplamente utilizada como cobertura
+            vegetal de rodovias, ferrovias, aeroportos e áreas públicas por
+            sua ampla adaptação a solos de fertilidade moderada a baixa,
+            mas também é recomendada em jardins residenciais por sua
+            beleza.
+          </p>
+        </div>
+
+        <div class="detail-right">
+          <img class="detail-image" src="assets/esmeralda.png" alt="Grama Esmeralda">
+        </div>
+      </section>
+
+      <h3 class="detail-subtitle">Mais itens de GRAMAS</h3>
+
+      <!-- Reaproveita os cards do index -->
+      <section class="grid">
+        <a href="detalhes-sementes.html" class="card-link">
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/sementes de grama.webp" alt="Sementes de Grama">
+            </div>
+            <div class="card-body">
+              <h5 class="title">SEMENTES DE GRAMA</h5>
+              <p class="subtitle">Mix de sementes para falhas</p>
+              <p class="price">R$ 58,00</p>
+            </div>
+          </article>
+        </a>
+
+        <a href="detalhes-saocarlos.html" class="card-link">
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/sao carlos.jpg" alt="Grama São Carlos">
+            </div>
+            <div class="card-body">
+              <h5 class="title">GRAMA SÃO CARLOS</h5>
+              <p class="subtitle">Boa para meia-sombra</p>
+              <p class="price">R$ 16,00</p>
+            </div>
+          </article>
+        </a>
+
+        <a href="detalhes-zeon.html" class="card-link">
+          <article class="card">
+            <div class="thumb">
+              <img src="assets/zeon.png" alt="Grama Zeon">
+            </div>
+            <div class="card-body">
+              <h5 class="title">GRAMA ZEON</h5>
+              <p class="subtitle">Ideal para jardins premium</p>
+              <p class="price">R$ 18,00</p>
+            </div>
+          </article>
+        </a>
+      </section>
+
+      <!-- Ver mais itens -->
+      <div class="see-more-wrap">
+        <a href="index.html" class="see-more">
+          <span class="see-more-text">Ver mais itens</span>
+          <ion-icon name="arrow-forward-outline" class="see-more-icon" aria-hidden="true"></ion-icon>
+        </a>
+      </div>
+
+      <!-- Ionicons (para os ícones da sidebar) -->
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
