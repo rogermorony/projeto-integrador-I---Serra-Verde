@@ -1,4 +1,4 @@
-<h1 align="center">🌱 Serra Verde Gramas — Loja Virtual (Projeto Integrador I • CSW)</h1>
+<h1 align="center">Serra Verde Gramas — E-commerce (Projeto Integrador I)</h1>
 
 <p align="center">
   <a href="https://rogermorony.github.io/projeto-integrador-I---Serra-Verde/"><b>Visite o site</b></a>
