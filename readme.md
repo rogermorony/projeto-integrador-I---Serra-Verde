@@ -1,4 +1,4 @@
-<h1 align="center">Serra Verde Gramas — E-commerce (Projeto Integrador I)</h1>
+<h1 align="center">Serra Verde Gramas | E-commerce (Projeto Integrador I)</h1>
 
 <p align="center">
   <a href="https://rogermorony.github.io/projeto-integrador-I---Serra-Verde/"><b>Visite o site</b></a>
@@ -57,23 +57,43 @@ O objetivo é desenvolver o <b>front-end estático de um e-commerce</b> fictíci
 ## 📂 Estrutura de Arquivos
 
 ```
-serra-verde-ecommerce/
+PROJETO INTEGRADOR I - SERRA VERDE/
 ├─ index.html
-├─ produtos.html
-├─ detalhes-esmeralda.html
-├─ carrinho.html
-├─ faleconosco.html
+├─ pages/
+│  ├─ carrinho.html
+│  ├─ faleconosco.html
+│  └─ detalhes/
+│     ├─ esmeralda.html
+│     ├─ sao-carlos.html
+│     ├─ zeon.html
+│     ├─ terra.html
+│     ├─ terra-em-saco.html
+│     ├─ fertilizante.html
+│     ├─ irrigacao.html
+│     ├─ sementes.html
+│     └─ ferramentas.html
 ├─ styles/
 │  ├─ main.css
-│  ├─ produtos.css
-│  ├─ detalhes-esmeralda.css
-│  └─ carrinho.css
+│  ├─ pages/
+│  │  ├─ carrinho.css
+│  │  ├─ faleconosco.css
+│  │  └─ detalhes/
+│  │     ├─ esmeralda.css
+│  │     ├─ sao-carlos.css
+│  │     ├─ zeon.css
+│  │     ├─ terra.css
+│  │     ├─ terra-em-saco.css
+│  │     ├─ fertilizante.css
+│  │     ├─ irrigacao.css
+│  │     ├─ sementes.css
+│  │     └─ ferramentas.css
 ├─ assets/
 │  ├─ Cover.png
 │  ├─ logo.svg / logo.png
 │  ├─ imgs/
 │  └─ icons/
 └─ README.md
+
 ```
 
 ---
@@ -90,14 +110,15 @@ serra-verde-ecommerce/
 ## 👥 Equipe
 
 **Desenvolvido por:**  
-Roger Martins, Clério dos Santos, João Port, Júlia Masiero, Matias Prates
+Roger Martins, Clério dos Santos, João Port, Júlia Masiero e Matias Prates
 
 **IFSul — Polo:** São Francisco de Paula
 
 **Professores:**  
+- Marcia Zechlinski Gusmão
 - Marcelo da Silveira Siedler  
 - Michele de Almeida Schmidt  
-- Marcia Zechlinski Gusmão
+
 
 ---
 
