@@ -6,18 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Checkout | Serra Verde Gramas - Loja</title>
 
-  <!-- Reaproveita a base do index (sidebar, grid, cards...) -->
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 
-  <!-- Estilos só do conteúdo de detalhes (não altera sidebar) -->
   <link rel="stylesheet" href="carrinho.css">
 </head>
 
 <body>
   <div class="page">
 
-    <!-- SIDEBAR — cópia idêntica do index -->
     <aside class="sidebar">
       <div class="brand">
         <img src="assets/logo-serra-verde.png" alt="Serra Verde Gramas">
@@ -29,27 +26,27 @@
         <div class="filter-group">
           <div class="group-title">Grama <span class="count">(4)</span></div>
           <ul>
-            <li><a href="#">Zoysia japônica</a></li>
-            <li><a href="#">Axonopus fissifolius</a></li>
-            <li><a href="#">Zoysia matrella</a></li>
-            <li><a href="#">Sementes de grama</a></li>
+            <li><a href="detalhes-esmeralda.html">Zoysia japônica</a></li>
+            <li><a href="detalhes-saocarlos.html">Axonopus fissifolius</a></li>
+            <li><a href="detalhes-zeon.html">Zoysia matrella</a></li>
+            <li><a href="detalhes-sementes.html">Sementes de grama</a></li>
           </ul>
         </div>
 
         <div class="filter-group">
           <div class="group-title">Terra <span class="count">(3)</span></div>
           <ul>
-            <li><a href="#">Terra preta</a></li>
-            <li><a href="#">Terra preta em saco</a></li>
-            <li><a href="#">Fertilizante NPK</a></li>
+            <li><a href="detalhes-terra.html">Terra preta</a></li>
+            <li><a href="detalhes-terraemsaco.html">Terra preta em saco</a></li>
+            <li><a href="detalhes-ferramentas.html">Fertilizante NPK</a></li>
           </ul>
         </div>
 
         <div class="filter-group">
           <div class="group-title">Acessórios <span class="count">(2)</span></div>
           <ul>
-            <li><a href="#">Kit irrigação</a></li>
-            <li><a href="#">Kit ferramentas de jardinagem</a></li>
+            <li><a href="detalhes-irrigacao.html">Kit irrigação</a></li>
+            <li><a href="detalhes-ferramentas.html">Kit ferramentas de jardinagem</a></li>
           </ul>
         </div>
       </nav>
@@ -58,19 +55,29 @@
         <h4>Fale Conosco</h4>
         <ul>
           <li>
-            <ion-icon name="logo-whatsapp"></ion-icon>(54) 99100-0910
+            <a href="https://wa.me/5554991000910" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>(54) 99100-0910
+            </a>
           </li>
           <li>
-            <ion-icon name="logo-facebook"></ion-icon>@serraverdegramas
+            <a href="https://facebook.com/serraverdegramas" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>@serraverdegramas
+            </a>
           </li>
           <li>
-            <ion-icon name="logo-instagram"></ion-icon>@serraverdegramas
+            <a href="https://instagram.com/serraverdegramas" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>@serraverdegramas
+            </a>
           </li>
           <li>
-            <ion-icon name="mail-outline"></ion-icon>serraverdegramas@hotmail.com
+            <a href="mailto:serraverdegramas@hotmail.com">
+              <ion-icon name="mail-outline"></ion-icon>serraverdegramas@hotmail.com
+            </a>
           </li>
           <li>
-            <ion-icon name="map-outline"></ion-icon>Estr. do Poço da Faca, 95 - Estra, São Francisco de Paula - RS
+            <a href="https://maps.google.com/?q=Estr. do Poço da Faca, 95 - São Francisco de Paula - RS" target="_blank">
+              <ion-icon name="map-outline"></ion-icon>São Francisco de Paula - RS
+            </a>
           </li>
         </ul>
       </section>
@@ -78,16 +85,13 @@
       <section class="about">
         <h4>Sobre nós</h4>
         <p>
-          A Serra Verde é o seu parceiro ideal para jardins incríveis, com gramados
-          de alta qualidade e entrega rápida em Canela, Gramado e São Francisco de Paula.
-          Selecione os produtos e transforme seu espaço com a gente!
+          A Serra Verde é o seu parceiro ideal para jardins incríveis, com gramados de alta qualidade e entrega rápida em Canela, Gramado e São Francisco de Paula. Selecione os produtos e transforme seu espaço com a gente!
           <br>
           <a href="#">www.serraverdegramas.com.br</a>
         </p>
       </section>
     </aside>
 
-    <!-- CONTEÚDO PRINCIPAL -->
     <main>
       <a href="index.html" class="btn-voltar">
         <ion-icon name="chevron-back-outline"></ion-icon>
@@ -98,7 +102,7 @@
       <p class="page-subtitle">Revise seus itens, informe seus dados e conclua a compra.</p>
 
       <div class="content">
-        <!-- Coluna esquerda -->
+
         <div class="left">
           <section class="box">
             <h3 class="box-title">Carrinho</h3>
@@ -137,7 +141,7 @@
               <input class="input" type="text" placeholder="Estado">
               <input class="input" type="text" placeholder="Complemento (opcional)">
             </div>
-            <p class="note">Entrega estimada: 3–5 dias úteis após confirmação do pagamento.</p>
+            <p class="note">Entrega estimada: 3-5 dias úteis após confirmação do pagamento.</p>
           </section>
 
           <section class="box">
@@ -154,7 +158,6 @@
           </section>
         </div>
 
-        <!-- Coluna direita -->
         <aside class="right">
           <div class="box">
             <div class="line"><span>Subtotal</span><span>R$ - </span></div>
@@ -183,7 +186,6 @@
       </div>
     </main>
 
-    <!-- Ionicons (para os ícones da sidebar) -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
